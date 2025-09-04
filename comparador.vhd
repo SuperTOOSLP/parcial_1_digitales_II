@@ -6,8 +6,8 @@ use ieee.std_logic_1164.all;
 
 entity comparador is
 	 
-	port(A		    	:	in  std_logic_vector(3 downto 0);	-- entrada A
-		  B		   	:  in  std_logic_vector(3 downto 0);	-- entrada B
+	 port(A		    	:  in  std_logic_vector(3 downto 0);	-- entrada A
+		  B		   	    :  in  std_logic_vector(3 downto 0);	-- entrada B
 		  comparacion	:  out std_logic_vector(3 downto 0));	
 		  
 end comparador;
@@ -35,3 +35,4 @@ architecture behavioral of comparador is
 	comparacion(0) <= '0';
 	
 end behavioral;
+
